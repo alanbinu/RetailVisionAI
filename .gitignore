@@ -1,8 +1,8 @@
-.venv/          → virtual environment
-__pycache__/    → Python cache
-*.pyc           → compiled Python files
-*.pyo           → optimized Python files
-*.pyd           → Python extension files
-.vscode/        → VS Code settings
-.env            → secret environment variables
-*.zip           → submission ZIP files
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.vscode/
+.env
+*.zip
