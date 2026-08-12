@@ -30,3 +30,31 @@ The RetailVisionAI system follows the pipeline below:
 📊 Analytics
      ↓
 📈 Streamlit Dashboard
+
+
+🔍 Attention Detection Flow
+
+🎥 Capture Frame
+       ↓
+👤 Detect Face
+       ↓
+📍 Detect Facial Landmarks
+       ↓
+🧭 Estimate Head Direction
+       ↓
+❓ Is the person facing the monitoring area?
+       ↓
+   ┌───────────┴───────────┐
+   ↓                       ↓
+✅ Yes                    ❌ No
+   ↓                       ↓
+⏱️ Record                 ⏱️ Record
+Attentive Time            Looking Away Time
+   ↓                       ↓
+   └───────────┬───────────┘
+               ↓
+        📊 Calculate Metrics
+               ↓
+        🗄️ Save Session
+               ↓
+        📈 Display Analytics
